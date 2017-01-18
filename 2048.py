@@ -70,6 +70,7 @@ def min_tile(f):
 
 
 def pprint(f):
+    print("What's up doc?")
     for row in f:
         for ele in row:
             log10=len(str(ele))
